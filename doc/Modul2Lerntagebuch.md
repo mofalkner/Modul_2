@@ -2,7 +2,7 @@
 - Ich habe die Videos und die Bilder angeschaut und habe die Theorie zu Polymorphismus gelernt!
 - Außderm habe ich die Teilbereiche angeschaut und diese ebenfalls gelernt!
 
-## Hier nochmal ausführlicher das 1. Video zu Vererbung:
+## Hier nochmal die wichtigsten Punkte zum 1. Video:
 - Es wird als Beispiel das DoME Beispiel verwendet.
 - Es gibt zwei Klasse: Einmal die Klasse CD und einmal die Klasse DVD.
 - Die Datenbank enthält zwei Array-Lists: einmal cds und einmal dvds.
@@ -28,3 +28,13 @@
 - Vererbung vereinfacht die Wartung und die Erweiterung.
 - Variablen können Objekte von Subtypen halten. 
 - Subtypen können immer dann verwendet werden, wenn Objekte von Supertypen erwartet werden (Ersetzbarkeit).
+
+## Zum 2. Videos die wichtigsten Punkte:
+- Die zentralen Konzepte sind die Methoden-Polymorphie, Statischer und dynamischer Typ, Überschreiben von Methoden, Dynamische Methodensuche und der Zugriff über protected.
+- Vererbungshierarchie: Die Datenbank hat nur Zugriff auf das Medium, aber nicht auf CD oder DVD.
+- Das Problem ist, dass die Methode "ausgeben" in Medium nur die gemeinsamen Datenfelder ausgibt.
+- Der deklarierte Typ einer Variablen ist ihr statischer Typ.
+- Der Typ des Objekts, auf das eine Variable verweist, ist ihr dynamischer Typ.
+- Der Compiler hat die Aufgabe, zu schauen, wo der statische Typ verletzt wird.
+- Um das Problem zu lösen, muss man mit der Subklassenmethoden die Version der Superklasse überschrieben.
+- 
