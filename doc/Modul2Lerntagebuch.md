@@ -37,4 +37,20 @@
 - Der Typ des Objekts, auf das eine Variable verweist, ist ihr dynamischer Typ.
 - Der Compiler hat die Aufgabe, zu schauen, wo der statische Typ verletzt wird.
 - Um das Problem zu lösen, muss man mit der Subklassenmethoden die Version der Superklasse überschrieben.
-- 
+
+![img.png](img.png)
+
+- Wenn man toString überschreibt, dann kann auf explizite ausgeben-Methoden oftmals verzichten.
+- Aufrufe von println mit einem Objekt führen automatisch dazu, dass toString aufgerufen wird.
+
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+
+### Rückblick im 2. Video:
+- Der deklarierte Typ einer Variablen ist ihr statischer Typ.
+- Compiler prüfen statische Typen.
+- Der Typ eines Objekts ist sein dynamischer Typ.
+- Dynamische Typen werden zur Laufzeit verwendet.
+- Methoden können in einer Subklasse überschrieben werden.
+- Methodensuche beginnt mit dem dynamischen Typ. 
+- Zugriff über protected unterstützt Vererbung.
