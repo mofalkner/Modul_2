@@ -60,3 +60,7 @@
 
 ![img_4.png](img_4.png)
 
+## Jetzt noch die wichtigsten Punkte zum 4. Video:
+- Vorgehensweise beim Aufbau einer polymorphen Codebasis: Vererbung einsetzen, Vollständige Schnittstellen bereitstellen in den oberen Klassen, Überschreiben von Methoden mit subtypenabhängiger Funkktionalität, Entkopplung bzw. Ersetzbarkeit anwenden, dynamische Bindung nutzen.
+
+![img_5.png](img_5.png)
