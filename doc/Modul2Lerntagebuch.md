@@ -54,3 +54,9 @@
 - Methoden können in einer Subklasse überschrieben werden.
 - Methodensuche beginnt mit dem dynamischen Typ. 
 - Zugriff über protected unterstützt Vererbung.
+
+## Hier nochmal die wichtigsten Punkte zum 3. Video:
+- Konstitutive Teilkonzepte des Methodenmorphismus: Vererbung, Überschreiben von Methoden, Ersatzbarkeit, Dynamische Bindung, 
+
+![img_4.png](img_4.png)
+
